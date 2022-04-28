@@ -94,6 +94,9 @@ def send_text(message):
     elif message.text == '➕ Пригласить нового участника':
         bot.send_sticker(message.chat.id, book.sticker3)
         bot.send_message(message.chat.id, book.unique_link)
+    elif message.text == '🔧 СТО':
+        bot.send_sticker(message.chat.id, book.sticker6)
+        bot.send_message(message.chat.id, book.sto)
 
 
     #Отдых
